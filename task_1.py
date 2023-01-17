@@ -7,7 +7,7 @@ class Solution:
                 last_digit = x % 10
                 rev = rev * 10 + last_digit
                 x = x // 10
-        if rev == x1 and x1 > 0:
+        if rev == x1 and x1 >= 0:
             return True
         else:
             return False
